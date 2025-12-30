@@ -7,4 +7,6 @@ create table ${table-domain}TEST_CONFIG
     name               varchar(64)   not null,
     description        varchar(255)   not null,
 );
+
+-- 4. SQL Server语句执行末尾必须添加GO提交
 GO
